@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.inicio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.start-button {
+    position: absolute;
+    top: 88%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(245, 75, 172, 0.835);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
